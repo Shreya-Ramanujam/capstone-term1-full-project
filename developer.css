@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/e3/10/57/e31057dac3b9c0aca43fc0fbc4672c11.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+/* div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 500px;
+    color: white;
+} */
+/* 
+#photo{
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color:transparent;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+} */
+
+p{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+#feel{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#mee{
+    font-size: 70px;
+    color: blueviolet;
+}
+li{
+    font-weight: 10em;
+    font-size: 20px;
+}
+
+li:hover{
+    color: black;
+    font-weight: 900;
+}
+
+p{
+    font-size: 25px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-left:5%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items: center;
+    background-color: rgb(40, 204, 233);
+    position: fixed;
+    width: 100%;
+}
+
+li:hover{
+    font-size: 20px;
+    font-weight:900 ;
+}
+
+@media only screen and (max-width:700px) {
+    p{
+        font-size: 22px;
+        padding-left:15px;
+    }
+
+    li:hover{
+        font-size: 12px;
+        font-weight:900 ;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    #mee{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 11.0px;
+}

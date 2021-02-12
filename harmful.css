@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/e3/10/57/e31057dac3b9c0aca43fc0fbc4672c11.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    /* background-repeat: no-repeat; */
+    color: rgb(8, 8, 8);
+    text-align: center;
+
+}
+
+#solution {
+    color: rgb(217, 217, 223);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+p {
+    font-size: 25px;
+    font-weight: 100em;
+    padding-left: 30px;
+     padding-right: 30px; 
+ 
+}
+
+li {
+    font-weight: 10em;
+    font-size: 20px;
+
+}
+#image{
+   max-width: 500px;
+}
+#mac {
+  width: 270px;
+ height: 270px;
+ /* padding-left: 300px; */
+}
+
+#mac2 {
+width: 300px;
+height:300px;
+/* padding-left: -400px; */
+}
+
+.health {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 999px; */
+    /* height: 1000px; */
+    padding-left: 100px;
+}
+
+/* #health {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 999px;
+    height: 500px;
+    padding-left: 500px; */
+    /* margin-top: 0%;
+} */ 
+
+h2 {
+    font-size: 30px;
+    color: rgb(28, 0, 128);
+}
+
+#recycle {
+    color: red;
+}
+
+#began {
+    font-size: 30px;
+    color: rgb(28, 0, 128);
+}
+
+.li {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+/* #raamu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 17px;
+     background-color: rgb(141, 211, 243);
+    padding: 2.5px; 
+    border-radius: 10px;
+}*/
+
+#raamu:hover {
+    font-weight: 900;
+    color: black;
+}
+/*
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background-color: skyblue;
+    position: fixed;
+    width: 100%;
+} */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+#raamu{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-left:5%;
+    font-size: 17px;
+    /* background-color: rgb(141, 211, 243); */
+    /* padding: 2.5px; */
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items: center;
+    background-color:skyblue;
+    position: fixed;
+    width: 100%;
+}
+
+/* 
+li :hover{
+    background-color: rgb(202, 0, 202);
+border-radius: 10px;
+} */
+
+#earth-plastic {
+    width: 400px;
+}
+
+/* div{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+    background-color: rgba(190, 81, 81, 0.815);
+    margin: 50px;
+    padding:8px;
+    border-radius: 50px;
+} */
+
+#hi-fi {
+    font-size: 50px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(28, 0, 128);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+   
+}
+
+@media only screen and (max-width:600px) {
+
+    p{
+        font-size: 15px;
+        line-height: px;
+        
+    }
+    nav{
+        width:99.9vw;
+      
+    }
+   #raamu{
+        font-size: 10px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+ #earth-plastic{
+     width: 370px;
+ }
+
+ #hi-fi{
+     font-size: 40px;
+ }
+ h2{
+    font-size: 25px;
+ }
+
+ h1{
+     font-size: 200px;
+ }
+
+ #health{
+     font-size: 20px;
+ }
+
+ #image{
+ width:350px;
+margin-left: 0px;
+ }
+
+ #mac {
+    width: 320px;
+   height: 200px;
+   padding-right: 100px;
+   padding-left: 120px;
+  }
+  
+  #mac2 {
+  width: 365px;
+  height:200px;
+  padding-right: 200px;
+  /* padding-left: -400px; */
+  }
+
+}

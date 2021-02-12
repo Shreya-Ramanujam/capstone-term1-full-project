@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/e3/10/57/e31057dac3b9c0aca43fc0fbc4672c11.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: black;
+}
+p{
+    font-size: 23px;
+}
+
+#plastic{
+    max-width: 42%;
+}
+
+#slogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    font-size: 20px;
+}
+
+ #hello{
+    font-size: 10px;
+} 
+
+  
+
+  h1{
+    font-size: 50px;
+}
+
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ background-color: grey;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+#raamu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /* width: 100%; */
+/* }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100%; 
+}*/
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#hello{
+    padding: 25px;
+    font-size: 43px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-left:5%;
+    font-size: 14px;
+    /* background-color: rgb(141, 211, 243); */
+    /* padding: 2.5px; */
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    align-items: center;
+    background-color:skyblue;
+    position: fixed;
+    width: 100%;
+}
+
+
+  
+li :hover{
+    font-weight: 900;
+    color: black;
+    font-size: 179;
+}
+
+/* header{
+    background-image: url(./assets\Save\ the\ Earth.png);
+  } */
+
+  @media only screen and (max-width:500px) {
+    p{
+        font-size: 20px;
+    }
+
+.raamu{
+    font-size: 10px;
+}
+   
+h1{
+    font-size: 30px;
+}
+
+#slogan{
+    width: 400px;
+    height: 150px;
+}
+
+#hello{
+    font-size: 35px;
+}
+
+}

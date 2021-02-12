@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/e3/10/57/e31057dac3b9c0aca43fc0fbc4672c11.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: rgb(3, 3, 3);
+    /* background-image: url("https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80"); */
+/* background-size: cover ;
+background-repeat: no-repeat; */
+}
+p{
+    font-size: 24px;
+    font-weight: 100em;
+    text-align: center;
+}
+
+li{
+    font-weight: 10em;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-left: 30px;
+    font-size:33px;
+    /* color: rgb(83, 8, 90); */
+}
+
+h2{
+    font-size: 37px;
+    text-align: center;
+    /* color: rgb(83, 8, 90); */
+}
+
+footer{
+    background-image: url("http://i1.faceprep.in/prograd-junior/black-background.png");
+background-size: 100% 200%;
+padding: 10% 10%;
+color: white;
+}
+
+
+.parvathi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#mee{
+    font-weight: 10em;
+    font-size: 24px;
+    text-align: left;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+}
+.raamu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-left:5%;
+    font-size: 15.3px;
+     /* background-color: rgb(141, 211, 243); */
+    /* padding: 3px; */
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    height:50px;
+    align-items: center;
+    background-color:skyblue;
+    position: fixed;
+    width: 100%;
+}
+
+#mee{
+    text-align: center;
+}
+
+
+#stack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* li :hover{
+    background-color: rgb(146, 10, 187);
+border-radius: 10px;
+} */
+
+/* .ml11 {
+    font-weight: 700;
+    font-size:48px;
+    color: rgb(194, 3, 108);
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .letters{
+      font-size: 48px;
+  } */
+
+  h3{
+      display:flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px;
+  }
+
+  /* div{
+      background-color: white;
+      margin: 2.5%;
+      padding:5%;
+  } */
+
+  .cap{
+    font-size: 24px;
+    text-align:center;
+  }
+
+  .raamu:hover{
+      font-weight:bolder ;
+      color: black;
+      font-size: 15.3px;
+  }
+
+
+  @media only screen and (max-width:700px) {
+    p{
+        font-size: 20px;
+    }
+
+    .letters{
+        font-size: 25px;
+    }
+
+    .plastic{
+        font-size: 25px;
+    }
+
+    #mee{
+        font-size: 20px;
+    }
+
+    #stack{
+        width: 350px;
+    }
+
+.raamu{
+    font-size: 10px;
+}
+   
+}
